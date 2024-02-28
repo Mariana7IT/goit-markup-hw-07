@@ -112,7 +112,12 @@ border-radius: 30px;
 background: #576F35;
 }
 .form-btn {
-
+    background: #576F35;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    min-width: 129px;
 }
 .conteiner-three {
     display: flex;
@@ -128,12 +133,37 @@ background: #576F35;
     border: none;
 }
 
-.order-title-two{
+
+.your-order-image{
 
 }
+.order-title-two{
+    color: rgba(251, 251, 251, 0.50);
+    font-family: "Inter Tight";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.21px;
+}
 
-.order-contact-link{
+.order-contacts-list{
     flex-wrap: nowrap;
+}
+
+.order-contacts-lisk-item{
+color: #FBFBFB;
+    font-family: "Inter Tight";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 108.333% */
+    letter-spacing: -0.36px;
+    flex-wrap: nowrap;
+}
+
+.order-contacts-link{
+    
 }
 /* flex-wrap: nowrap */
 /* .contacts-link {
